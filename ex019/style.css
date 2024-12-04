@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/*
+ em HTML é id = em CSS é # (só pode um elemento)
+ em HTML é class = em CSS é . (pode vários elementos)
+*/
+
+/*
+ configurações do ID sobrepõe as da class  
+*/
+
+/*
+ é possivel usar mais de uma classe dentro de um elemento
+ também é possível colocar uma classe junto com um ID dentro de um elemento(o ID sobrepõe)
+*/
+body{
+    background-color: rgba(125, 255, 255, 0.815);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(0, 51, 43);
+}
+
+h1#Principal{
+    text-align: center;
+    background-color: rgb(0, 51, 43);
+    color: white;
+}
+
+h2{
+    color: rgb(1, 10, 59);
+}
+
+.basico{
+    color: rgb(1, 10, 59);
+    
+}
+
+.intermediario{
+    color: rgb(149, 255, 0);
+}
+
+.avancado{
+    color: rgb(38, 0, 255);
+}
+
+.destaque{
+    background-color: yellowgreen;
+}

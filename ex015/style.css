@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*      CSS Inline = na linha do código HTML
+        CSS Interno = separado do código HTML, mas no mesmo arquivo
+        CSS Externo = Arquivo separado
+        ------------------
+        PODER NO Código
+        CSS Inline >>>> CSS Interno >>>> CSS Externo
+
+        As configurações pontuais(HTML Style) vão prevalecer sobre
+        as configurações gerais(CSS Style)
+        ------------------
+        CSS Externo = use sempre que puder
+        CSS Interno = use para pequenas configurações
+        CSS Inline = procure evitar, apenas para uma configuração muito especifica dentro de um site
+        ------------------
+        Ainda é possível misturar as três técnicas, criando um CSS externo para as configurações globais,
+        CSS interno para as configurações locais de um documento e CSS inline para pequenas configurações
+        pontuais
+         */
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: maroon;
+    background-color: darkgoldenrod;
+}
+
+h2 {
+    color: darkred;
+}
+
+p {
+    text-align: justify;
+}

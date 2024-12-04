@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        Pseudo Classes são palavras que definem estados de elementos dentro do HTML.
+        */
+
+        /* SELETORES PERSONALIZADOS
+        
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children/filho
+        */
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial{
+            background-color: rgba(255, 0, 0, 0.411);
+           
+        }
+
+        .especial::before{
+            content: '✺';
+        }
+
+        .especial::after{
+            content: '✺';
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/viktor1v9/viktor1v9" target="_blank">Repositório no GitHub</a></li>
+        <li><a href="https://youtu.be/6hzrDeceEKc?si=JRaAj6P1WPsRzvz8" target="_blank" class="especial">cli do Youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/victo-santos-dos-reis-08790b174/" target="_blank" class="especial">Linkedin</a></li>
+    </ul>
+</body>
+</html>
